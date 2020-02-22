@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="User">
+    <Position X="3.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\User.cs</FileName>
+      <NewMemberFileName>App_Code\user.cs</NewMemberFileName>
+      <HashCode>AAQAAAAAACAAgAAAAABAAAAAAAAAAAACAAAAAAAAAAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Order">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\Order.cs</FileName>
+      <NewMemberFileName>App_Code\order.cs</NewMemberFileName>
+      <HashCode>AAAAAAAAAAAAAgABAAAAAAAAAAAAAACAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

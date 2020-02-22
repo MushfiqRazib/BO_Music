@@ -1,0 +1,134 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="bo01.MainLayOut, Bo02" %>
+<%@ Register Src="~/Playlist.ascx" TagName="playlist" TagPrefix="ucp" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head runat="server">
+    <title>Untitled Page</title>
+ 	<META http-equiv=Content-Type content="text/html; charset=UTF-8">       
+ 	<LINK href="include/style.css"  media="screen" type="text/css" rel="stylesheet">
+    <LINK href="include/master.css"  media="screen" type="text/css" rel="stylesheet">
+   	<script language="JavaScript" src="include/CommonFuctions.js"></script>
+	<script language="JavaScript" src="include/jscript.js"></script>
+    <script src="include/PlayList.js" type="text/javascript"></script>
+    <META content="MSHTML 6.00.6000.16481" name=GENERATOR>
+    
+</head>
+<body onload="init()" bgcolor="#A7A6A6"><!-- bgcolor="#A7A6A6"-->
+    <form id="form1" runat="server">
+    <div id="divPlaylist" style="position:absolute; visibility:hidden">
+        <ucp:playlist ID="playlist" runat="server" />    
+    </div>
+    <div align=center>
+ 
+        <DIV id=header>
+        <DIV class=pad1></DIV>
+         <table id="tableHeader" cellpadding=0 cellspacing=0 border=0 style="background-color:White;" width=916px>
+         <tr align=left>
+            <td align=left  valign=top class="headerleft"></td>
+            <td align=left valign=top  >
+                <table border=0 cellpadding="0" cellspacing="0">
+                <tr>
+                    <td align=left  valign=top class="headertop"></td>
+                </tr>
+                 <tr>
+                     
+                     <td align="left" >
+                           
+                                <table id="table2" align="center"  cellpadding="0" cellspacing="0"   border=0 width=100%>
+                                    <tr height=76 valign=top>
+                                        <td  class="header">
+                                            <table cellpadding="0" cellspacing="0" border=0px  style=width:100%>
+                                                <tr >
+                                                    <td align="right" style="height: 36px;" valign=top >
+                                                            <span>
+                                                             
+                                                                 <table border="0"  cellspacing="0" cellpadding="0" >
+                                                                 <tr>
+                                                                    <td valign=top> <img src="graphics/headerLeftTop.png" /></td>
+                                                                    <td>
+                                                                       <div  class="headertopmnu" >
+                                                                            <table border=0 cellpadding=0 cellspacing=0>
+                                                                                  <tr>
+                                                                                    <td style="height: 15px"><asp:Label ID="lblLoginInfo" CssClass=menu runat="server" Text="Logged in as:"></asp:Label></td>
+                                                                                    <td style="height: 15px"> <asp:Label ID="lblLogin" CssClass=menu runat="server" Text=hello></asp:Label></td>
+                                                                                    <td style="height: 15px"><asp:label id="Label4" CssClass=menu runat="server" text="&nbsp;|&nbsp;"></asp:label></td>
+                                                                                    <td style="height: 15px"><asp:LinkButton ID="lnkLogin" CssClass=menu runat="server" OnClick="lnkLogin_Click" CausesValidation="False">Login</asp:LinkButton></td>
+                                                                                    <td style="height: 15px"><asp:label id="Label1" CssClass=menu runat="server" text="&nbsp;|&nbsp;"></asp:label></td>
+                                                                                    <td style="height: 15px"><asp:linkbutton id="lnkRegister" CssClass=menu runat="server" CausesValidation="False" onclick="lnkRegister_Click">Register</asp:linkbutton></td>
+                                                                                    <td style="height: 15px"><asp:label id="Label2" CssClass=menu runat="server" text="&nbsp;|&nbsp;"></asp:label></td>
+                                                                                    <td style="height: 15px"><asp:imagebutton id="chicken" CssClass=menu runat="server" ImageUrl="graphics/chicken.png" OnClick="chicken_Click" CausesValidation="False"></asp:imagebutton><asp:Label runat="server" ID="lblCartItem"></asp:Label></td>
+                                                                                    <td style="height: 15px"><asp:label id="Label3" CssClass=menu runat="server" text="&nbsp;|&nbsp;"></asp:label></td>
+                                                                                    <td style="height: 15px"><asp:linkbutton id="lnkHelp" CssClass=menu runat="server" CausesValidation="False"  onclick="lnkHelp_Click" >Help</asp:linkbutton>&nbsp;</td>
+                                                                                    <td style="padding-right:5px; height: 15px;" ><asp:imagebutton id="flagEN" CssClass=menu runat="server" ImageUrl="graphics/flagEN.png" OnClick="flagEN_Click" CausesValidation="False" ></asp:imagebutton></td>
+                                                                                    <td style="height: 15px" ><asp:imagebutton id="flagNL" CssClass=menu runat="server" ImageUrl="graphics/flagNL.png" OnClick="flagNL_Click" CausesValidation="False"  ></asp:imagebutton></td>
+                                                                                </tr>
+                                                                             </table>
+                                                                               <div>&nbsp;</div>
+                                                                            </div>
+                                                                     </td>
+                                                                  </tr>
+                                                                </table>
+                                                            </span>
+                                                    </td>
+                                                </tr>
+                                            </table>                    
+                                        </td>
+                                    </tr>
+                                    <tr style="height:19px;" valign=top >
+                                        <td height=19px valign="top">
+                                            <asp:PlaceHolder  ID="phMenu" runat="server"></asp:PlaceHolder>
+                                        </td>
+                                    </tr>
+                                    <tr><td width="80%" height="8px"></td></tr>                   
+                               </table>
+                        
+                           
+                          </td>
+                </tr>
+                </table>    
+            </td>
+            <td  align=left  valign =top  class="headerright"></td>
+        </tr>
+      
+    </table>
+    </DIV>
+    <DIV id=content align=center>
+     <DIV class=pad2></DIV><div style="height:20px;"></div>
+    <table id="tableContent" cellpadding=0 cellspacing=0 border=0 width=916px align=center style="background-color:White;"  >
+        <tr >
+            <td align=left valign=top class="left"></td>
+            <td valign ="top" style="padding-right:0px;height:175px"  align=center>
+                <asp:contentplaceholder id="ContentPlaceHolder1" runat="server"></asp:contentplaceholder>
+            </td>
+            <td align=left  valign=top class="right"></td>
+        </tr>
+        <tr>
+             <td align=left valign=top  class="left"></td>
+             <td  valign=top>
+                <table cellpadding="0" cellspacing="0" width=100%>
+                    <tr style="background-color:#800728; height:19px;">
+                        <td align="right" style="padding-right:9px; color:White;">
+                          <a href="disclaimer.aspx" style="text-decoration:none; color:white;"><asp:Label ID="lblDis" runat="server"></asp:Label></a>&nbsp;&nbsp;<a href="generalterms.aspx" style="text-decoration:none; color:white;"><asp:Label ID="lblGT" runat="server"></asp:Label></a></td>
+                    </tr>
+                </table>
+             </td>
+            <td align=left  valign=top  class="right"></td>
+           
+        </tr>
+        <tr>
+             <td align=left valign=top  class="bottomleft"></td>
+             <td class="bottom"></td>
+            <td align=left  valign=top class="bottomright"></td>
+           
+        </tr>
+        
+    </table>
+    <DIV class=pad2> </DIV>
+    </div>
+    
+  
+    </div>
+    
+    </form>
+</body>
+</html>

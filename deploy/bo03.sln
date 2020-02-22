@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "bo03", "http://localhost/bo03", "{8920F97E-D274-4129-B6E6-2E611572DD77}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/bo03"
+		Debug.AspNetCompiler.PhysicalPath = "E:\projecten\BO03\webroot\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\bo03\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/bo03"
+		Release.AspNetCompiler.PhysicalPath = "E:\projecten\BO03\webroot\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\bo03\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "E:\projecten\BO03\webroot\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8920F97E-D274-4129-B6E6-2E611572DD77}.Debug|.NET.ActiveCfg = Debug|.NET
+		{8920F97E-D274-4129-B6E6-2E611572DD77}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

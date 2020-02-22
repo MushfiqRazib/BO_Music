@@ -1,0 +1,236 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="bo01.MainLayOut, App_Web_mainlayout.master.cdcab7d2" %>
+
+
+
+<%@ Register TagPrefix="uc1" TagName="Search" Src="~/Search.ascx" %>
+
+
+<%--
+<%@ Register TagPrefix="ucSubscribe" TagName="Subscribe" Src="~/subscribe_widget.ascx" %>
+--%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Boeijenga Music</title>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+    <meta name="description" content="Boeijenga Music" />
+    <meta name="keywords" content="Boeijenga Music" />
+    <meta name="robots" content="index, follow" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link href="include/StyleSheet.css" rel="stylesheet" type="text/css" />
+
+    <script src="include/jquery-1.3.2.min.js" type="text/javascript"></script>
+
+    <script src="include/Utility.js" type="text/javascript"></script>
+    <script src="include/Master.js" type="text/javascript"></script>
+    
+
+    <script src="include/wwjQuery.js" type="text/javascript"></script>
+
+    <script src="include/jquery.blockUI.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+
+        
+
+
+        function   BeforeSubmit() {
+
+
+            RemoveUserPasswordControl();
+        
+        
+        }   
+        function RemoveUserPasswordControl() {
+            if($('input.login-password-input').is(':visible')!= true)
+            {
+                $('input.login-password-input').remove();
+            }
+         
+            
+        }
+    
+    </script>
+      <asp:ContentPlaceHolder ID="headerPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+</head>
+<body style="top: 0; left: 0;">
+    <form id="form1" runat="server" onsubmit="BeforeSubmit()"  defaultbutton="btnLogin" >
+    <ajaxToolkit:ToolkitScriptManager runat="Server" EnablePartialRendering="true" ID="ScriptManager1" />
+    
+    <div class="container-top-row">
+      
+        <div class="container-top-row-middle-col ">
+            <div class="header">
+                <div class="left-sub-header">
+                    <div class="logo-header">
+                    </div>
+                </div>
+                <div class="right-sub-header">
+                    <div class="header-login">
+                        <div class="login-container">
+                         
+                            <div style="float: left; position: relative;margin-top:-2px;">
+                                <div class="my-account-label">
+                                    <asp:LinkButton   ID="linkMyAccount" CssClass="menu" runat="server" 
+                                        Text="My Account" CausesValidation="false" onclick="linkMyAccount_Click"></asp:LinkButton>
+                                </div>
+                                <asp:ImageButton   ID="flagEN" style="margin-top:3px" Height="12px" Width="23px" CssClass="menu" runat="server"
+                                    ImageUrl="graphics/flagEN.png" OnClick="flagEN_Click" CausesValidation="False">
+                                </asp:ImageButton>
+                                <asp:ImageButton  style="margin-top:3px" ID="flagNL" Height="12px" Width="23px" CssClass="menu" runat="server"
+                                    ImageUrl="graphics/flagNL.png" OnClick="flagNL_Click" CausesValidation="False">
+                                </asp:ImageButton>
+                                
+                              <div class = "login-text-elements login-elements-hide" style="width: 93px;"> 
+                                <asp:TextBox  title="User Name" Height="15px" ID="txtUserName" runat="server" CssClass="userlogintext"></asp:TextBox></div>
+                                <div class="login-text-elements login-elements-hide" style="width: 80px;"> 
+                                <asp:TextBox Height="15px" title="Password" Width="80px"   ID="txtFakePassword" runat="server" TextMode="SingleLine" CssClass="userlogintext fakepassword"></asp:TextBox>
+                               
+                                <asp:TextBox  Height="15px" title="Password" Width="80px"   style="display:none" ID="txtPassword" runat="server"  CssClass="login-password-input userlogintext password"></asp:TextBox>
+                             </div>
+                                <%--<ajaxToolkit:TextBoxWatermarkExtender  ID="watermarkedUserName" runat="server" TargetControlID="txtUserName"
+                                    WatermarkCssClass="watermarked" />
+                                <ajaxToolkit:TextBoxWatermarkExtender   ID="watermarkedPassword" runat="server" TargetControlID="txtFakePassword"
+                                    WatermarkCssClass="watermarked" />--%>
+                               <%-- <asp:RequiredFieldValidator ValidationGroup="loginvalidation" ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtPassword"
+                                    Display="Dynamic"></asp:RequiredFieldValidator>--%>
+                                <div class="login-button-container login-elements-hide"> 
+                                <asp:Button   Width="80px" ID="btnLogin" ValidationGroup="loginvalidation" CssClass="button" runat="server" OnClick="btnLogin_Click" />
+                               </div>
+                               <asp:RequiredFieldValidator ForeColor="White"  CssClass="white-validatation" SetFocusOnError=true  ValidationGroup="loginvalidation" ID="rfvUserName" runat="server" ControlToValidate="txtUserName"
+                                    ErrorMessage="*" Display="Dynamic"></asp:RequiredFieldValidator>
+                             
+                            <asp:RegularExpressionValidator ValidationGroup="loginvalidation" ID="revUserName" runat="server" ControlToValidate="txtUserName"
+                                    Display="Dynamic"  CssClass="white-validatation" ErrorMessage="*" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+                                               
+                              
+                               
+                           
+                            </div>
+                            <div class="login-link-container" style="float: right; overflow: hidden; width: 230px; height: 0px;">
+                            <div style="float:right">
+                                <asp:LinkButton  ID="lnkRegister" CssClass="menu" runat="server" CausesValidation="False"
+                                    OnClick="lnkRegister_Click">Register</asp:LinkButton>
+                                <asp:Label ID="lblLoginInfo" CssClass="menu" runat="server" Text="Welcome "></asp:Label>
+                                <asp:Label ID="lblLogin" CssClass="menu" runat="server" Text=""></asp:Label>
+                                <asp:Label ID="Label4" CssClass="menu" runat="server" Text="&nbsp;|&nbsp;"></asp:Label>
+                                <asp:Label ID="Label5" CssClass="menu" runat="server" Text="&nbsp;|&nbsp;"></asp:Label>
+                                <asp:LinkButton ID="lnkLogin"   CssClass="menu" runat="server" OnClick="lnkLogin_Click"
+                                    CausesValidation="False">Login</asp:LinkButton>
+                                    </div>
+                            </div>
+                            
+                       
+                           
+                        </div>
+                    </div>
+                    <div class="header-basket">
+                    
+                        <table>
+                            <tr>
+                                <td colspan="2">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="basket-left-row-container">
+                                    <div class="basket-left-row">
+                                        
+                                        <asp:LinkButton OnClick="link_basket_click" runat="server" ID="linkBasket" Text="Basket" CausesValidation="false"></asp:LinkButton>
+                                        </div>
+                                </td>
+                                <td class="basket-right-row-container">
+                                    <div class="basket-right-row">
+                                        
+                                               <asp:Label runat="server" ID="lblBasketContent" Text="Basket Empty"></asp:Label>
+                                        </div>
+                                </td>
+                            </tr>
+                            
+                            
+                            <tr>
+                                <td class="basket-left-row-container">
+                                    <div class="basket-left-row">
+                                        
+                                        <asp:LinkButton  OnClick="linkEmptyBasket_click" runat="server" ID="linkEmptyBasket" Text="Empty Basket" CausesValidation="false"></asp:LinkButton>
+                                        </div>
+                                </td>
+                                <td class="basket-right-row-container">
+                                    <div class="basket-right-row">
+                                        
+                                        </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="basket-left-row-container">
+                                    <div class="basket-left-row">
+                                        
+                                        <asp:LinkButton runat="server" OnClick="lblBasketPayament_click" ID="lblBasketPayament" Text="Payment" CausesValidation="false"></asp:LinkButton>
+                                        </div>
+                                </td>
+                                <td class="basket-right-row-container">
+                                    <div class="basket-right-row">
+                                     <asp:Label runat="server" ID="lblToatal" Text="Total :&euro;"></asp:Label>
+                                           <asp:Label runat="server" ID="lblBasketTotalPrice" Text="  0,00"></asp:Label>
+                                        </div>
+                                </td>
+                            </tr>
+                        </table>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-menu-row">
+        <div class="menu-content">
+            <div class="left-menu">
+                <asp:PlaceHolder ID="phMenu" runat="server"></asp:PlaceHolder>
+            </div>
+            <div class="right-menu">
+            <div class="right-menu-container" >
+             <uc1:Search ID="Search1" runat="server" />
+             </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <div class="content-top-block">
+          <div class="breadcumbContainer">
+        <asp:PlaceHolder ID="breadcumbContainer" runat="server"></asp:PlaceHolder>
+        </div>
+        </div>
+        <div class="content-middle-block">
+            <div class="content-body">
+              
+                <asp:ContentPlaceHolder ID="ContentPlace" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="content-sidebar">
+            <asp:ContentPlaceHolder ID="SidebarPlace" runat="server">
+                </asp:ContentPlaceHolder>
+               
+            </div>
+        </div>
+        
+        <div class="content-end-footer"></div>
+    </div>
+    <div class="container-footer-row">
+        <div class="content-footer-block">
+          
+            <div class="address-footer">
+                <span>Boeijenga Music | Hoofdweg 156
+                    <br />
+                    9431 BM Veenhuijen | The Netherlands
+                    <br />
+                    Phone: +31 (0) 592-304142 | Fax: +31 (0) 592-304143
+                    <br />
+                    Email: info@boeigengamusic.com </span>
+            </div>
+        </div>
+    </div>
+    
+     
+    </form>
+</body>
+</html>

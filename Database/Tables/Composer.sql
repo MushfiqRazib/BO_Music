@@ -1,0 +1,1 @@
+ALTER TABLE composers_composerid_seq RENAME TO composer_composerid_seq;

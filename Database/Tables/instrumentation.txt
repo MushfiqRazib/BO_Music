@@ -1,0 +1,132 @@
+-- Table: instrumentation
+
+-- DROP TABLE instrumentation;
+
+CREATE TABLE instrumentation
+(
+  id serial NOT NULL,
+  instrumentname character varying(200)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE instrumentation OWNER TO postgres;
+
+
+
+
+
+
+
+
+INSERT INTO instrumentation(instrumentname) VALUES ('Violin and Piano');
+INSERT INTO instrumentation(instrumentname) VALUES ('orgel met pedaal');
+INSERT INTO instrumentation(instrumentname) VALUES ('2 Violins, Violoncello / Violin, Viola, Violoncello');
+INSERT INTO instrumentation(instrumentname) VALUES ('String Quintet');
+INSERT INTO instrumentation(instrumentname) VALUES ('String Quartet');
+INSERT INTO instrumentation(instrumentname) VALUES ('2 Violins, Violoncello');
+INSERT INTO instrumentation(instrumentname) VALUES ('Piano Trio');
+INSERT INTO instrumentation(instrumentname) VALUES ('Violoncello');
+INSERT INTO instrumentation(instrumentname) VALUES ('Piano, Clarinet (Violin) and Viola');
+INSERT INTO instrumentation(instrumentname) VALUES ('Basso Continuo (Orgel)');
+INSERT INTO instrumentation(instrumentname) VALUES ('Choir and Orchestra');
+INSERT INTO instrumentation(instrumentname) VALUES ('Piano, 4-hands');
+INSERT INTO instrumentation(instrumentname) VALUES ('orgel & trompet');
+INSERT INTO instrumentation(instrumentname) VALUES ('Flute, Violin, Viola');
+INSERT INTO instrumentation(instrumentname) VALUES ('piano');
+INSERT INTO instrumentation(instrumentname) VALUES ('2 Trompeten, 2 Posaunen und Orgel');
+INSERT INTO instrumentation(instrumentname) VALUES ('piano / cembalo');
+INSERT INTO instrumentation(instrumentname) VALUES ('Piano, Violin, Violoncello ');
+INSERT INTO instrumentation(instrumentname) VALUES ('vocal score');
+INSERT INTO instrumentation(instrumentname) VALUES ('Double Bass and Piano');
+INSERT INTO instrumentation(instrumentname) VALUES ('Chamber music with winds');
+INSERT INTO instrumentation(instrumentname) VALUES ('Orchestra');
+INSERT INTO instrumentation(instrumentname) VALUES ('Violin Part 1');
+INSERT INTO instrumentation(instrumentname) VALUES ('Voice and Piano (high Voice)');
+INSERT INTO instrumentation(instrumentname) VALUES ('Violoncello and Piano');
+INSERT INTO instrumentation(instrumentname) VALUES ('Voice and Piano');
+INSERT INTO instrumentation(instrumentname) VALUES ('Bass');
+INSERT INTO instrumentation(instrumentname) VALUES ('Flute and Piano');
+INSERT INTO instrumentation(instrumentname) VALUES ('blokfluit');
+INSERT INTO instrumentation(instrumentname) VALUES ('2 Violins, Viola, 2 Violoncello');
+INSERT INTO instrumentation(instrumentname) VALUES ('for 2 Oboes and Cor anglais');
+INSERT INTO instrumentation(instrumentname) VALUES ('Violoncello solo');
+INSERT INTO instrumentation(instrumentname) VALUES ('Clarinet, Bassoon, Horn, Strings');
+INSERT INTO instrumentation(instrumentname) VALUES ('Oboe and Klavier');
+INSERT INTO instrumentation(instrumentname) VALUES ('Basso Part');
+INSERT INTO instrumentation(instrumentname) VALUES ('orgel solo');
+INSERT INTO instrumentation(instrumentname) VALUES ('Viola and Violoncello');
+INSERT INTO instrumentation(instrumentname) VALUES ('Viola and Piano');
+INSERT INTO instrumentation(instrumentname) VALUES ('Violin (Flute), Violin and Violoncello');
+INSERT INTO instrumentation(instrumentname) VALUES ('Chorus, Orchestra');
+INSERT INTO instrumentation(instrumentname) VALUES ('2 violins');
+INSERT INTO instrumentation(instrumentname) VALUES ('Trumpet and Piano');
+INSERT INTO instrumentation(instrumentname) VALUES ('2 Pianos, 4-hands');
+INSERT INTO instrumentation(instrumentname) VALUES ('Piano Quintet');
+INSERT INTO instrumentation(instrumentname) VALUES ('Double Bass solo');
+INSERT INTO instrumentation(instrumentname) VALUES ('2 Clarinets, 2 Horns and 2 Bassoons');
+INSERT INTO instrumentation(instrumentname) VALUES ('Violin and Basso Continuo');
+INSERT INTO instrumentation(instrumentname) VALUES ('Violin solo');
+INSERT INTO instrumentation(instrumentname) VALUES ('Clarinet and Piano');
+INSERT INTO instrumentation(instrumentname) VALUES ('Piano and Violoncello');
+INSERT INTO instrumentation(instrumentname) VALUES ('Violine, Violoncello and Orchestra');
+INSERT INTO instrumentation(instrumentname) VALUES ('2 Violins, 2 Viola, Violoncello');
+INSERT INTO instrumentation(instrumentname) VALUES ('Chorus and Orchestra');
+INSERT INTO instrumentation(instrumentname) VALUES ('Clarinet, 2 Violins, Viola, Violoncello');
+INSERT INTO instrumentation(instrumentname) VALUES ('orgel (zonder pedaal)');
+INSERT INTO instrumentation(instrumentname) VALUES ('trompete & orgel');
+INSERT INTO instrumentation(instrumentname) VALUES ('Organ');
+INSERT INTO instrumentation(instrumentname) VALUES ('Viola solo');
+INSERT INTO instrumentation(instrumentname) VALUES ('Violin, Piano');
+INSERT INTO instrumentation(instrumentname) VALUES ('orgel manualiter');
+INSERT INTO instrumentation(instrumentname) VALUES ('Clarinet part');
+INSERT INTO instrumentation(instrumentname) VALUES ('Oboe and Piano');
+INSERT INTO instrumentation(instrumentname) VALUES ('Viola Part');
+INSERT INTO instrumentation(instrumentname) VALUES ('Oboe, Violin, Viola, Violoncello');
+INSERT INTO instrumentation(instrumentname) VALUES ('Voice and several instruments');
+INSERT INTO instrumentation(instrumentname) VALUES ('critical report');
+INSERT INTO instrumentation(instrumentname) VALUES ('SATB');
+INSERT INTO instrumentation(instrumentname) VALUES ('Score');
+INSERT INTO instrumentation(instrumentname) VALUES ('two Oboes, two Clarinets (Bb), two Horns and two Bassoons');
+INSERT INTO instrumentation(instrumentname) VALUES ('Trio Sonatas');
+INSERT INTO instrumentation(instrumentname) VALUES ('String Duo, String Trio');
+INSERT INTO instrumentation(instrumentname) VALUES ('klavierauszug');
+INSERT INTO instrumentation(instrumentname) VALUES ('Violin and Orchestra');
+INSERT INTO instrumentation(instrumentname) VALUES ('orgel / piano / cembalo');
+INSERT INTO instrumentation(instrumentname) VALUES ('Violine (Flöte), Violine and Violoncello');
+INSERT INTO instrumentation(instrumentname) VALUES ('Flute solo');
+INSERT INTO instrumentation(instrumentname) VALUES ('für orgel un orchester');
+INSERT INTO instrumentation(instrumentname) VALUES ('Bassoon, Violoncello (Bc)');
+INSERT INTO instrumentation(instrumentname) VALUES ('Violoncello, Piano');
+INSERT INTO instrumentation(instrumentname) VALUES ('Viola part');
+INSERT INTO instrumentation(instrumentname) VALUES ('2 Violins, Viola, Violoncello');
+INSERT INTO instrumentation(instrumentname) VALUES ('2 Oboes, 2 Clarinets, 2 Basset Clarinets, 4 Horns, 2 Bassoons and Double Bass');
+INSERT INTO instrumentation(instrumentname) VALUES ('Piano reduction');
+INSERT INTO instrumentation(instrumentname) VALUES ('Two Pianos, 4-hands');
+INSERT INTO instrumentation(instrumentname) VALUES ('klavier (Urtext)');
+INSERT INTO instrumentation(instrumentname) VALUES ('klavier');
+INSERT INTO instrumentation(instrumentname) VALUES ('Piano 4-hands');
+INSERT INTO instrumentation(instrumentname) VALUES ('orgel, piano');
+INSERT INTO instrumentation(instrumentname) VALUES ('two Flutes and Violoncello ');
+INSERT INTO instrumentation(instrumentname) VALUES ('Violins and Viola');
+INSERT INTO instrumentation(instrumentname) VALUES ('piano, orgel oder cembalo');
+INSERT INTO instrumentation(instrumentname) VALUES ('Bassoon and Piano');
+INSERT INTO instrumentation(instrumentname) VALUES ('organ solo');
+INSERT INTO instrumentation(instrumentname) VALUES ('Piano and Orchestra');
+INSERT INTO instrumentation(instrumentname) VALUES ('Mandolin and Piano');
+INSERT INTO instrumentation(instrumentname) VALUES ('Violin Part 2');
+INSERT INTO instrumentation(instrumentname) VALUES ('2 Oboes, 2 Clarinets, 2 Horns and 2 Bassoons');
+INSERT INTO instrumentation(instrumentname) VALUES ('String Duos, String Trios');
+INSERT INTO instrumentation(instrumentname) VALUES ('orgel');
+INSERT INTO instrumentation(instrumentname) VALUES ('Clarinet (Violin), Viola (Violoncello), Piano');
+INSERT INTO instrumentation(instrumentname) VALUES ('Works for chorus and orchestra');
+INSERT INTO instrumentation(instrumentname) VALUES ('Chamber Music with Wind Instruments');
+INSERT INTO instrumentation(instrumentname) VALUES ('String quartet');
+INSERT INTO instrumentation(instrumentname) VALUES ('flute, oboe, clarinet, horn and bassoon');
+INSERT INTO instrumentation(instrumentname) VALUES ('Violin and Viola');
+INSERT INTO instrumentation(instrumentname) VALUES ('Piano solo');
+INSERT INTO instrumentation(instrumentname) VALUES ('Piano Quartet');
+INSERT INTO instrumentation(instrumentname) VALUES ('Violin, Viola and Piano');
+INSERT INTO instrumentation(instrumentname) VALUES ('zwei Flöten and Violoncello ');
+INSERT INTO instrumentation(instrumentname) VALUES ('Violine and Gitarre');
+INSERT INTO instrumentation(instrumentname) VALUES ('Horn and Piano');

@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="agree" xml:space="preserve">
+    <value>You did not agree with ours Terms.</value>
+    <comment>rinku 07-01-08</comment>
+  </data>
+  <data name="artical_report" xml:space="preserve">
+    <value>Article ID</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="assen" xml:space="preserve">
+    <value>Route from Assen</value>
+    <comment>rinku 18-01-08</comment>
+  </data>
+  <data name="author" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="bank_acc_report" xml:space="preserve">
+    <value>Bankaccount details</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="Book" xml:space="preserve">
+    <value>Books</value>
+    <comment>shahriar 26_11_07</comment>
+  </data>
+  <data name="BookImage" xml:space="preserve">
+    <value>header_books_en.png</value>
+    <comment>shahriar 26-11-07</comment>
+  </data>
+  <data name="btnAddMore" xml:space="preserve">
+    <value>btn_addmore_en.png</value>
+    <comment>Titu (29-06-07)</comment>
+  </data>
+  <data name="btnAddToCart" xml:space="preserve">
+    <value>btn_addtocart_en.png</value>
+  </data>
+  <data name="btnClear" xml:space="preserve">
+    <value>btn_Clear_en.png</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="btnConfirm" xml:space="preserve">
+    <value>btn_Confirm_en.png</value>
+    <comment>shahriar</comment>
+  </data>
+  <data name="btnContact" xml:space="preserve">
+    <value>btn_addmore_en.gif</value>
+    <comment>rinku 02-01-08</comment>
+  </data>
+  <data name="btnDetail" xml:space="preserve">
+    <value>btn_details_en.png</value>
+  </data>
+  <data name="btnGo" xml:space="preserve">
+    <value>btn_Go_en.png</value>
+  </data>
+  <data name="btnGoBack" xml:space="preserve">
+    <value>btn_goback_en.png</value>
+  </data>
+  <data name="btnLogin" xml:space="preserve">
+    <value>btn_Login_en.png</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="btnNewsArchive" xml:space="preserve">
+    <value>news_archive_en.png</value>
+    <comment>shahriar-17-6-07</comment>
+  </data>
+  <data name="btnNext" xml:space="preserve">
+    <value>btn_next_en.png</value>
+    <comment>shahriar</comment>
+  </data>
+  <data name="btnPreviewPdf" xml:space="preserve">
+    <value>btn_PreviewPdf_en.jpg</value>
+  </data>
+  <data name="btnQuickBuy" xml:space="preserve">
+    <value>btn_quickbuy_en.png</value>
+  </data>
+  <data name="btnSpotlight" xml:space="preserve">
+    <value>btn_spotlight_en.png</value>
+  </data>
+  <data name="btnSubmit" xml:space="preserve">
+    <value>btn_OK_en.png</value>
+    <comment>shahriar</comment>
+  </data>
+  <data name="btnSubscribe" xml:space="preserve">
+    <value>btn_subscribe_en.png</value>
+  </data>
+  <data name="CDDVD" xml:space="preserve">
+    <value>CD/DVD</value>
+    <comment>shahriar 26_11_07</comment>
+  </data>
+  <data name="CDDVDImage" xml:space="preserve">
+    <value>header_cddvd_en.png</value>
+    <comment>shahriar 26-11-07</comment>
+  </data>
+  <data name="changeDelivery" xml:space="preserve">
+    <value>Please select if you want to use a different delivery address</value>
+    <comment>Titu(27-06-07)</comment>
+  </data>
+  <data name="chkAgree" xml:space="preserve">
+    <value>I agree with the General Terms</value>
+    <comment>rinku 07-01-08</comment>
+  </data>
+  <data name="currentpage" xml:space="preserve">
+    <value>You are in&amp;nbsp;</value>
+  </data>
+  <data name="currentpagesearch" xml:space="preserve">
+    <value>search result</value>
+  </data>
+  <data name="customer_id_report" xml:space="preserve">
+    <value>Customer ID:</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="degree" xml:space="preserve">
+    <value>Degree</value>
+  </data>
+  <data name="des_report" xml:space="preserve">
+    <value>Description</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="discount_report" xml:space="preserve">
+    <value>Discount
+(%)</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="due_date_report" xml:space="preserve">
+    <value>Due date:</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="emailValidMessage" xml:space="preserve">
+    <value>This is not a valid email address</value>
+  </data>
+  <data name="emptyCart" xml:space="preserve">
+    <value> Empty Shopping Cart!</value>
+    <comment>Titu (29-06-07)</comment>
+  </data>
+  <data name="for_payment_report" xml:space="preserve">
+    <value>For payment please quote</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="header_changeprofile" xml:space="preserve">
+    <value>Change Profile</value>
+  </data>
+  <data name="header_help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="header_login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="header_logininfo" xml:space="preserve">
+    <value>Welcome &amp;nbsp;</value>
+  </data>
+  <data name="header_logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="header_register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="headerAdvanceSearch" xml:space="preserve">
+    <value>Content_header_Advance search_en.gif</value>
+    <comment>shahriar-19-6-07</comment>
+  </data>
+  <data name="headerChangeProfile" xml:space="preserve">
+    <value>Content_header_changeprofile_en.gif</value>
+    <comment>shahriar_12-6-07</comment>
+  </data>
+  <data name="headerConfirm" xml:space="preserve">
+    <value>header_confirm_en.gif</value>
+    <comment>shahriar-29-6-07</comment>
+  </data>
+  <data name="headerContactForm" xml:space="preserve">
+    <value>contact_contact_form_en.png</value>
+    <comment>rinku 30-12-07</comment>
+  </data>
+  <data name="headerContactInfor" xml:space="preserve">
+    <value>contact_contact_info.png</value>
+    <comment>rinku 30-12-07</comment>
+  </data>
+  <data name="headerContactInformation" xml:space="preserve">
+    <value>header_contactInformation_en.png</value>
+    <comment>provas</comment>
+  </data>
+  <data name="headerDelivery" xml:space="preserve">
+    <value>header_Delivery_en.gif</value>
+    <comment>shahriar-29-6-07</comment>
+  </data>
+  <data name="headerDetails" xml:space="preserve">
+    <value>Header_Details_en.png</value>
+    <comment>shahriar_11-6</comment>
+  </data>
+  <data name="headerLogin" xml:space="preserve">
+    <value>Content_header_Login_en.gif</value>
+    <comment>shahriar_12-6-07</comment>
+  </data>
+  <data name="headerNews" xml:space="preserve">
+    <value>Content_header_news_en.gif</value>
+    <comment>shahriar-17-6-07</comment>
+  </data>
+  <data name="headerRegister" xml:space="preserve">
+    <value>Content_header_Register_en.gif</value>
+    <comment>shahriar_12-6-07</comment>
+  </data>
+  <data name="headerSearch" xml:space="preserve">
+    <value>right_bar.jpg</value>
+    <comment>rinku 30-12-07</comment>
+  </data>
+  <data name="headerSearchResult" xml:space="preserve">
+    <value>header_search_result_en.gif</value>
+    <comment>shahriar_29-6-07</comment>
+  </data>
+  <data name="headerShoppingCart" xml:space="preserve">
+    <value>header_shoppingcart_en.gif</value>
+    <comment>shahriar_29-6-07</comment>
+  </data>
+  <data name="headerSignup" xml:space="preserve">
+    <value>header_signup_en.gif</value>
+    <comment>shahriar_29-6-07</comment>
+  </data>
+  <data name="headerSoptLight" xml:space="preserve">
+    <value>HeaderSpotlight_en.png</value>
+    <comment>rinku 30-12-07</comment>
+  </data>
+  <data name="headerSpotlight" xml:space="preserve">
+    <value>Content_header_spotlightarchive_en.gif</value>
+    <comment>shahriar-17-6-07</comment>
+  </data>
+  <data name="homeheaderNews" xml:space="preserve">
+    <value>Home_News_en.gif</value>
+    <comment>rinku 07-01-08</comment>
+  </data>
+  <data name="invalidLogin" xml:space="preserve">
+    <value>Invalid Id or Password</value>
+  </data>
+  <data name="invoice_date_report" xml:space="preserve">
+    <value>Invoice Date:</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="invoice_no_report" xml:space="preserve">
+    <value>Invoice No:</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="invoice_Report" xml:space="preserve">
+    <value>INVOICE</value>
+    <comment>rinku 04-12-07</comment>
+  </data>
+  <data name="invoice_total_report" xml:space="preserve">
+    <value>Invoice total:</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="lblAddress" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="lblAdvSearch" xml:space="preserve">
+    <value>&lt;a href="javascript:SelectDeselectAll()"&gt;Select / Deselect all&lt;/a&gt;</value>
+    <comment>khaer</comment>
+  </data>
+  <data name="lblCategory" xml:space="preserve">
+    <value>Category</value>
+    <comment>khaer</comment>
+  </data>
+  <data name="lblCategoryListMusic" xml:space="preserve">
+    <value>Category</value>
+    <comment>khaer</comment>
+  </data>
+  <data name="lblCity" xml:space="preserve">
+    <value>City</value>
+    <comment>Titu-10/09/07</comment>
+  </data>
+  <data name="lblCompany" xml:space="preserve">
+    <value>Company Name</value>
+    <comment>rinku 07-01-08</comment>
+  </data>
+  <data name="lblComposer" xml:space="preserve">
+    <value>Composer</value>
+    <comment>Titu (Detail Page)--21-06-07</comment>
+  </data>
+  <data name="lblCountry" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="lblCS" xml:space="preserve">
+    <value>Coming soon...</value>
+    <comment>rinku 23-01-08</comment>
+  </data>
+  <data name="lblCurrentPage" xml:space="preserve">
+    <value>Current Page</value>
+    <comment>khaer</comment>
+  </data>
+  <data name="lblCustomerAlready" xml:space="preserve">
+    <value>If you are a registered user</value>
+  </data>
+  <data name="lblCustomerNotYet" xml:space="preserve">
+    <value>If you are not registered yet</value>
+  </data>
+  <data name="lblDis" xml:space="preserve">
+    <value>Disclaimer </value>
+    <comment>rinku 28-12-07</comment>
+  </data>
+  <data name="lblDisclaimer" xml:space="preserve">
+    <value>
+In geen enkel geval kan Boeijenga’s Boek- en Muziekhandel B.V., verder te noemen Boeijenga Muziek, aansprakelijk gesteld worden voor enige schade die het resultaat zou zijn van de levering, werking of gebruik van de informatie en/of producten op deze website. De inhoud van deze site is met de grootste zorgvuldigheid samengesteld. Wanneer er desondanks onjuistheden in voorkomen, zoals foutief aangegeven prijzen als gevolg van tikfouten of foutieve productomschrijvingen, aanvaardt Boeijenga Muziek daarvoor geen enkele aansprakelijkheid.</value>
+    <comment>rinku 18-12-07</comment>
+  </data>
+  <data name="lblEMail" xml:space="preserve">
+    <value>E-mail</value>
+    <comment>Titu - 21-06-07 Modified (value was Email)</comment>
+  </data>
+  <data name="lblErrorMessage" xml:space="preserve">
+    <value>Invalid User Name or Password</value>
+  </data>
+  <data name="lblEventListMusic" xml:space="preserve">
+    <value>Event</value>
+    <comment>khaer</comment>
+  </data>
+  <data name="lblExcludedShippingCost" xml:space="preserve">
+    <value>All prices are excluded shipping &amp; handling costs</value>
+    <comment>titu 11-12-2007</comment>
+  </data>
+  <data name="lblFax" xml:space="preserve">
+    <value>Fax</value>
+    <comment>Titu(27-06-07)</comment>
+  </data>
+  <data name="lblFillUserName" xml:space="preserve">
+    <value>Fill in your user name and password.</value>
+  </data>
+  <data name="lblFirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="lblGenTerm" xml:space="preserve">
+    <value>
+&lt;h3&gt;Algemene Voorwaarden&lt;/h3&gt;
+
+&lt;h4&gt;1. Toepassing en definities&lt;/h4&gt;
+1.1 Deze voorwaarden zijn van toepassing op alle aanbiedingen, bestellingen en/of overeenkomsten door Boeijenga’s Boek- en Muziekhandel B.V., verder te noemen Boeijenga Muziek, met derden aangegaan;&lt;br&gt;&lt;br&gt;
+1.2 Van hetgeen in deze voorwaarden bepaald is kan slechts schriftelijk worden afgeweken; de overige bepalingen blijven in een dergelijk geval volledig van kracht.&lt;br&gt;&lt;br&gt;
+1.3 Door het doen van een bestelling dan wel het accepteren van een aanbieding, geeft u aan dat u de toepasselijkheid van deze voorwaarden aanvaardt.&lt;br&gt;&lt;br&gt;
+
+&lt;h4&gt;2. Overeenkomsten/aanbiedingen&lt;/h4&gt;
+2.1 Een overeenkomst komt pas tot stand na acceptatie van uw bestelling door Boeijenga Muziek. Deze behoudt zich het recht voor om bestellingen te weigeren, dan wel bepaalde voorwaarden aan de levering te verbinden.&lt;br&gt;&lt;br&gt;
+2.2 Alle aanbiedingen en/of offertes door Boeijenga Muziek verstrekt, zijn vrijblijvend. Boeijenga Muziek behoudt zich overigens het recht voor om prijzen te wijzigen.&lt;br&gt;&lt;br&gt;
+
+&lt;h4&gt;3. Prijzen&lt;/h4&gt;
+3.1 De prijzen van de producten worden weergegeven in Euro’s inclusief BTW, eventuele belastingen en andere heffingen, tenzij nadrukkelijk anders vermeldt. Aan deze prijzen kunnen echter geen rechten worden ontleend.&lt;br&gt;&lt;br&gt;
+3.2 Indien de prijzen van de producten van Boeijenga Muziek hoger blijken te zijn dan op de website vermeld, dan ontvangt de klant hierover bericht. De klant is gerechtigd in deze situatie de bestelling te annuleren, mits binnen 5 dagen na verzending van het bericht.&lt;br&gt;&lt;br&gt;
+3.3 Kortingen worden per transactie verleend en geven geen enkel recht op die kortingen bij volgende transacties, tenzij nadrukkelijk schriftelijk anders overeengekomen.&lt;br&gt;&lt;br&gt;
+
+&lt;h4&gt;4. Betalingscondities&lt;/h4&gt;
+4.1 Tenzij schriftelijk anders is overeengekomen, dient de betaling te geschieden zonder korting of enige compensatie binnen 14 dagen na de factuurdatum, door storting of overmaking op een door ons opgegeven bankrekening.&lt;br&gt;&lt;br&gt;
+4.2 Betaling kan geschieden op een van de wijzen zoals aangegeven tijdens het bestelproces. Boeijenga Muziek behoudt zich het recht voor u te verzoeken vooruit te betalen.&lt;br&gt;&lt;br&gt;
+4.3 Bij overschrijding van de betalingstermijn bent u vanaf de vervaldatum in verzuim en bent u gehouden tot vergoeding van de wettelijke rente over het verschuldigde bedrag, voor de duur van het verzuim.&lt;br&gt;&lt;br&gt;
+4.4 Indien Boeijenga Muziek haar vordering ter incasso uitbesteedt, bent u tevens de incassokosten verschuldigd, welke tenminste 15 procent van het openstaande bedrag zijn, onverminderd de bevoegdheid om in plaats daarvan de daadwerkelijk gemaakte buitengerechtelijke incassokosten te vorderen.&lt;br&gt;&lt;br&gt;
+4.5 Indien u met betaling in gebreke bent, is Boeijenga Muziek gerechtigd de betreffende bestelling en/of overeenkomst en daarmee samenhangende nieuwe bestellingen en/of overeenkomsten op te schorten, dan wel te ontbinden.&lt;br&gt;&lt;br&gt;
+4.6 Alle bank- en/of girokosten welke door betaling per bank en/of giro veroorzaakt worden zijn voor uw eigen rekening. Indien eerst na betaling van de hoofdsom blijkt dat deze extra kosten zijn ontstaan, dan worden deze alsnog in rekening gebracht en bent u gehouden deze kosten te voldoen.&lt;br&gt;&lt;br&gt;
+
+&lt;h4&gt;5. Levering en verzending&lt;/h4&gt;
+5.1. Alle levertijden als zodanig door Boeijenga Muziek opgegeven zijn indicatief.&lt;br&gt;&lt;br&gt;
+5.2 Overschrijding van enige leveringstermijn geeft u geen recht op schadevergoeding en evenmin het recht uw bestelling te annuleren dan wel de overeenkomst te ontbinden, tenzij de leveringstermijn zodanig is dat van u redelijkerwijs niet kan worden verlangd dat u de overeenkomst in stand laat. In een dergelijke geval worden eventuele betalingen binnen 30 dagen gerestitueerd.&lt;br&gt;&lt;br&gt;
+5.3 De kosten die door Boeijenga Muziek worden gemaakt voor de verzending van door u bestelde producten zijn geheel voor uw rekening en worden als zodanig aan u doorberekend. Boeijenga Muziek is niet verplicht deze voorafgaand aan u mee te delen dan wel te bevestigen. U kunt deze desgewenst zowel mondeling als schriftelijk bij Boeijenga Muziek opvragen.&lt;br&gt;&lt;br&gt;
+
+&lt;h4&gt;6. Eigendomsvoorbehoud&lt;/h4&gt;
+6.1 De eigendom van de geleverde producten gaat pas van ons op u over, indien u al hetgeen u op grond van enige overeenkomst aan Boeijenga Muziek verschuldigd bent, heeft voldaan.&lt;br&gt;&lt;br&gt;
+6.2 Het risico ter zake van de producten gaat reeds op het moment van aflevering op u over.&lt;br&gt;&lt;br&gt;
+6.3 U bent verplicht ons op de hoogte te stellen, indien zaken waar het eigendomsvoorbehoud van ons op rust in beslag worden genomen.&lt;br&gt;&lt;br&gt;
+
+&lt;h4&gt;7. Reclames en aansprakelijkheid&lt;/h4&gt;
+7.1 U heeft de verplichting om bij aflevering de producten te onderzoeken of de producten aan de overeenkomst voldoen. Indien dit niet het geval is, dan dient u Boeijenga Muziek daarvan zo spoedig mogelijk en in ieder geval binnen 10 dagen na aflevering waarbij constatering redelijkerwijs mogelijk was, schriftelijk en gemotiveerd kennis te geven.&lt;br&gt;&lt;br&gt;
+7.2 Indien is aangetoond dat de producten niet aan de overeenkomst beantwoorden, heeft Boeijenga Muziek de keuze de desbetreffende producten tegen retournering daarvan te vervangen door nieuwe producten dan wel de factuurwaarde daarvan te restitueren.&lt;br&gt;&lt;br&gt;
+7.3 Indien u een product om welke reden dan ook niet wenst af te nemen, heeft u het recht het product binnen 7 werkdagen na aflevering aan Boeijenga Muziek te retourneren en de overeenkomst te ontbinden. Retournering en ontbinding van de overeenkomst kan alleen als de verpakking van het product onbeschadigd is en een eventuele verzegeling niet verbroken. In alle gevallen komen de kosten van een retourzending voor uw eigen rekening. Een eventueel reeds door de consument gedane betaling wordt binnen 30 dagen na het terugsturen aan de consument gerestitueerd.&lt;br&gt;&lt;br&gt;
+7.4 In het geval de overeenkomst tweedehands producten of opruimingsartikelen betreft, vervalt het recht van retour. Deze producten kunnen na aanschaf niet worden geretourneerd, tenzij nadrukkelijk schriftelijk anders is overeengekomen.&lt;br&gt;&lt;br&gt;
+
+&lt;h4&gt;8. Afwijkingen&lt;/h4&gt;
+8.1 Geringe afwijkingen in kwaliteit, specificaties e.d., welke uit technisch oogpunt niet kunnen worden voorkomen, dan wel volgens de handelsusance algemeen worden toegelaten, kunnen geen grond opleveren voor reclame.&lt;br&gt;&lt;br&gt;
+8.2 Bij de beoordeling of een levering buiten de toelaatbare grenzen afwijkt, moet een gemiddelde uit de levering worden genomen. Er kan dus niet op enkele exemplaren worden afgekeurd.&lt;br&gt;&lt;br&gt;
+
+&lt;h4&gt;9. Bestellingen/communicatie&lt;/h4&gt;
+Voor misverstaan, verminkingen, vertragingen of niet behoorlijk overkomen van bestellingen en mededelingen ten gevolge van het gebruik van Internet of enig ander communicatiemiddel in het verkeer tussen u en Boeijenga Muziek, voor zover betrekking hebbend op de relatie tussen u en Boeijenga Muziek, is Boeijenga Muziek niet aansprakelijk, tenzij en voorzover er sprake mocht zijn van opzet of grove schuld van Boeijenga Muziek.&lt;br&gt;&lt;br&gt;
+
+&lt;h4&gt;10. Overmacht&lt;/h4&gt;
+10.1 Indien er sprake is van overmacht behoudt Boeijenga Muziek zich het recht voor bestellingen en/of overeenkomsten op te schorten dan wel te ontbinden. Boeijenga Muziek is verplicht dit aan de klant mee te delen. Boeijenga Muziek is niet aansprakelijk voor de gevolgen die uit het opschorten of ontbinden van een overeenkomst ontstaan.&lt;br&gt;&lt;br&gt;
+10.2 Onder overmacht wordt verstaan iedere tekortkoming welke niet aan Boeijenga Muziek kan worden toegerekend, omdat zij niet te wijten is aan haar schuld en noch krachtens de wet, rechtshandeling of in het verkeer geldende opvattingen voor haar rekening komt.&lt;br&gt;&lt;br&gt;
+
+&lt;h4&gt;11. Overige&lt;/h4&gt;
+11.1 Boeijenga Muziek is gerechtigd deze voorwaarden onverkort te handhaven. Tijdelijke versoepeling van toepassing van de voorwaarden geven u als klant geen recht om Boeijenga Muziek aansprakelijk te stellen als zij de voorwaarden strenger in praktijk brengt.&lt;br&gt;&lt;br&gt;
+11.2 Indien één of meerdere bepalingen van deze voorwaarden of enige andere overeenkomst met Boeijenga Muziek in strijd mochten zijn met enig toepasselijk rechtsvoorschrift, zal de betreffende bepaling komen te vervallen en zal deze worden vervangen door een door Boeijenga Muziek vast te stellen nieuwe rechtens toelaatbare vergelijkbare bepaling.&lt;br&gt;&lt;br&gt;
+11.3 Boeijenga Muziek is behoudt zich het recht voor om bij uitvoering van uw bestelling(en) gebruik te maken van derden.&lt;br&gt;&lt;br&gt;
+11.4 Indien u aan Boeijenga Muziek schriftelijk opgave doet van een adres, is Boeijenga Muziek gerechtigd aan dat adres alle bestellingen te verzenden, tenzij u schriftelijk opgave doet van een ander adres waaraan uw bestellingen dienen te worden gezonden.&lt;br&gt;&lt;br&gt;
+
+&lt;h4&gt;12. Toepasselijk recht en Geschillen&lt;/h4&gt;
+Op alle rechten, verplichtingen, aanbiedingen, bestellingen, overeenkomsten en transacties waarop deze voorwaarden van toepassing zijn, alsmede op deze voorwaarden, is het Nederlands recht van toepassing
+
+&lt;h4&gt;13. Copyrights&lt;/h4&gt;
+Alle teksten en illustraties zijn © Copyright Boeijenga’s Boek- en Muziekhandel B.V. te Veenhuizen, alsmede © Copyright Boeijenga Music Publications te Veenhuizen. Alle rechten voorbehouden. Overname van delen of gedeeltes van deze Boeijenga Muziek- website is niet toegestaan. Alle afbeeldingen en teksten worden beschermd door copyright en zijn eigendom van Boeijenga’s Boek- en Muziekhandel B.V.
+
+
+    </value>
+    <comment>rinku 18-12-07</comment>
+  </data>
+  <data name="lblGradeList" xml:space="preserve">
+    <value>Difficulty/Grade</value>
+    <comment>khaer</comment>
+  </data>
+  <data name="lblGT" xml:space="preserve">
+    <value>General Terms</value>
+    <comment>rinku 28-12-07</comment>
+  </data>
+  <data name="lblHeader" xml:space="preserve">
+    <value>Delivery Address</value>
+    <comment>rinku 07-01-08</comment>
+  </data>
+  <data name="lblHouse" xml:space="preserve">
+    <value>House#</value>
+  </data>
+  <data name="lblInitialName" xml:space="preserve">
+    <value>Initial Name</value>
+    <comment>shahriar</comment>
+  </data>
+  <data name="lblInvoice" xml:space="preserve">
+    <value>Invoice Edit</value>
+    <comment>khaer</comment>
+  </data>
+  <data name="lblInvoiceAddressHeader" xml:space="preserve">
+    <value>Invoice Address</value>
+    <comment>rinku 23-01-08</comment>
+  </data>
+  <data name="lblISBNSearchBook" xml:space="preserve">
+    <value>ISBN- Search</value>
+    <comment>khaer</comment>
+  </data>
+  <data name="lblISMNMusic" xml:space="preserve">
+    <value>ISMN- Search</value>
+    <comment>khaer</comment>
+  </data>
+  <data name="lblLabel" xml:space="preserve">
+    <value>Label</value>
+    <comment>Titu (Detail Page)--21-06-07</comment>
+  </data>
+  <data name="lblLanguageBook" xml:space="preserve">
+    <value>Language</value>
+    <comment>khaer</comment>
+  </data>
+  <data name="lblLastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="lblMName" xml:space="preserve">
+    <value>Middle Name</value>
+  </data>
+  <data name="lblName" xml:space="preserve">
+    <value>Name</value>
+    <comment>Titu-10/09/07</comment>
+  </data>
+  <data name="lblOpeninghours" xml:space="preserve">
+    <value>&lt;b&gt;Opening hours:&lt;/b&gt;&lt;br&gt;
+Wed. &amp; Fri. 13:00-17:00 hour &lt;br&gt;
+Sat. 09:00-13.00 hours</value>
+    <comment>rinku 26-02-08</comment>
+  </data>
+  <data name="lblPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="lblPaymentType" xml:space="preserve">
+    <value>Payment By</value>
+    <comment>rinku 23-01-08</comment>
+  </data>
+  <data name="lblPerformer" xml:space="preserve">
+    <value>Performer</value>
+    <comment>titu 12-12-2007</comment>
+  </data>
+  <data name="lblPeriodListMusic" xml:space="preserve">
+    <value>Period</value>
+    <comment>khaer</comment>
+  </data>
+  <data name="lblPhone" xml:space="preserve">
+    <value>Phone Number</value>
+    <comment>Titu-10/09/07</comment>
+  </data>
+  <data name="lblPostalCode" xml:space="preserve">
+    <value>Postal Code</value>
+    <comment>Titu-10/09/07</comment>
+  </data>
+  <data name="lblPostCode" xml:space="preserve">
+    <value>Post Code</value>
+  </data>
+  <data name="lblPrice" xml:space="preserve">
+    <value>Price</value>
+    <comment>rinku 27-12-07</comment>
+  </data>
+  <data name="lblQuestion" xml:space="preserve">
+    <value>Question</value>
+    <comment>Titu-10/09/07</comment>
+  </data>
+  <data name="lblRegisterMessage" xml:space="preserve">
+    <value>Thank you for registering with us.</value>
+    <comment>Titu - 03/08/07 (for register page)</comment>
+  </data>
+  <data name="lblRePassword" xml:space="preserve">
+    <value>Re-Type Password</value>
+    <comment>Titu- 01/08/2007(for register.aspx)</comment>
+  </data>
+  <data name="lblRequired" xml:space="preserve">
+    <value>The fields with * are required</value>
+    <comment>Titu-10/09/07</comment>
+  </data>
+  <data name="lblResidence" xml:space="preserve">
+    <value>Residence</value>
+  </data>
+  <data name="lblSearch" xml:space="preserve">
+    <value>Search</value>
+    <comment>khaer</comment>
+  </data>
+  <data name="lblSelDeSelAll" xml:space="preserve">
+    <value>&lt;a href="javascript:SelectDeselectAll()"&gt;Select / Deselect all&lt;/a&gt;</value>
+    <comment>khaer</comment>
+  </data>
+  <data name="lblShipping" xml:space="preserve">
+    <value>Shipping costs</value>
+    <comment>rinku 23-01-08</comment>
+  </data>
+  <data name="lblSortBy" xml:space="preserve">
+    <value>Sort By:</value>
+    <comment>rinku 27-12-07</comment>
+  </data>
+  <data name="lblTelephone" xml:space="preserve">
+    <value>Telephone</value>
+    <comment>Titu (27-06-07)</comment>
+  </data>
+  <data name="lblTotal_Price" xml:space="preserve">
+    <value>Total Price</value>
+    <comment>rinku 22-01-08</comment>
+  </data>
+  <data name="lblTotal_vat" xml:space="preserve">
+    <value>Total (excl.VAT)</value>
+    <comment>rinku 22-01-08</comment>
+  </data>
+  <data name="lblType" xml:space="preserve">
+    <value>Type of Product</value>
+    <comment>khaer</comment>
+  </data>
+  <data name="lblUserName" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="lblWebsite" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="mailsend" xml:space="preserve">
+    <value>Your message has been send to Boeijenga Music</value>
+    <comment>Titu-10/09/07</comment>
+  </data>
+  <data name="misMatchPassword" xml:space="preserve">
+    <value>Password Mismatch!</value>
+    <comment>Titu- 01/08/2007(for register.aspx)</comment>
+  </data>
+  <data name="more" xml:space="preserve">
+    <value>more</value>
+    <comment>rinku 28-12-07</comment>
+  </data>
+  <data name="net_price_report" xml:space="preserve">
+    <value>Net Price</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="no_deduction_accepted_report" xml:space="preserve">
+    <value>no deduction accepted</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="notACustomermessage" xml:space="preserve">
+    <value>Click# here # to add a new account, so you'll only have to supply your data once.</value>
+  </data>
+  <data name="ooworld" xml:space="preserve">
+    <value>Route from Oosterwolde</value>
+    <comment>rinku 18-01-08</comment>
+  </data>
+  <data name="our_vat_report" xml:space="preserve">
+    <value>Our VAT No.</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="pagerootsearch" xml:space="preserve">
+    <value>home</value>
+  </data>
+  <data name="PostfixBookProperty" xml:space="preserve">
+    <value>page's</value>
+    <comment>shahriar-18-6-107</comment>
+  </data>
+  <data name="PostfixCdProperty" xml:space="preserve">
+    <value>sec</value>
+    <comment>shahriar-18-6-07</comment>
+  </data>
+  <data name="PostfixMusicsheetProperty" xml:space="preserve">
+    <value>sec</value>
+    <comment>shahriar-18-6-07</comment>
+  </data>
+  <data name="price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="productdescription" xml:space="preserve">
+    <value>Description</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="productType" xml:space="preserve">
+    <value>Type</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="publisher" xml:space="preserve">
+    <value>Publisher</value>
+  </data>
+  <data name="PublisherImage" xml:space="preserve">
+    <value>header_publishing_en.png</value>
+    <comment>shahriar 26-11-07</comment>
+  </data>
+  <data name="qnty_report" xml:space="preserve">
+    <value>Quantity</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="quantity" xml:space="preserve">
+    <value>Quantity</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="requiredValidMessage" xml:space="preserve">
+    <value>Required</value>
+    <comment>updated - Titu (11-09-07)</comment>
+  </data>
+  <data name="result" xml:space="preserve">
+    <value>results</value>
+  </data>
+  <data name="retail_price_report" xml:space="preserve">
+    <value>Price
+(exc.VAT)</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="searchText" xml:space="preserve">
+    <value>Advanced search</value>
+    <comment>khaer</comment>
+  </data>
+  <data name="sheetmusic" xml:space="preserve">
+    <value>Sheetmusic</value>
+    <comment>shahriar 26_11_07</comment>
+  </data>
+  <data name="SheetmusicImage" xml:space="preserve">
+    <value>header_sheetmusic_en.png</value>
+    <comment>shahriar 26-11-07</comment>
+  </data>
+  <data name="shipping_cost_report" xml:space="preserve">
+    <value>Shippingcosts:</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="srtTrans_2" xml:space="preserve">
+    <value>has been succesfully placed. You will receive a confirmation by email within a moment.</value>
+    <comment>rinku 23-01-08</comment>
+  </data>
+  <data name="staticBook" xml:space="preserve">
+    <value>Onlangs verschenen boeken of nieuwe titels in ons assortiment staan hieronder voor u op een rijtje. Voor een overzicht van alle boeken in ons assortiment, klik u </value>
+    <comment>rinku 17-01-08</comment>
+  </data>
+  <data name="staticBookLink" xml:space="preserve">
+    <value>hier.</value>
+    <comment>rinku 17-01-08</comment>
+  </data>
+  <data name="staticCD" xml:space="preserve">
+    <value>Onlangs verschenen publicaties of nieuwe producten in ons assortiment staan hieronder voor u op een rijtje. Voor een overzicht van alle cd’s &amp; dvd’s in ons assortiment, klik u </value>
+    <comment>rinku 17-01-08</comment>
+  </data>
+  <data name="staticCDLink" xml:space="preserve">
+    <value>hier.</value>
+    <comment>rinku 17-01-08</comment>
+  </data>
+  <data name="staticPublisher" xml:space="preserve">
+    <value>&lt;br&gt;Onder de naam Boeijenga Music Publications geven wij bladmuziek voor orgel uit. Ook hebben wij inmiddels enkele DVD- en CD-producties uitgebracht. Een actuele lijst met onze uitgaven treft u hieronder aan.&lt;br&gt;</value>
+    <comment>Titu - 22/06/07 (for publisher page)</comment>
+  </data>
+  <data name="staticSM" xml:space="preserve">
+    <value>Onlangs verschenen muziekuitgaven of nieuwe titels in ons assortiment staan hieronder voor u op een rijtje. Voor een overzicht van alle boeken in ons assortiment, klik u </value>
+    <comment>rinku 17-01-08</comment>
+  </data>
+  <data name="staticSMLink" xml:space="preserve">
+    <value>hier.</value>
+    <comment>rinku 17-01-08</comment>
+  </data>
+  <data name="strTrans" xml:space="preserve">
+    <value>Your order</value>
+    <comment>rinku 23-01-08</comment>
+  </data>
+  <data name="sub_total_report" xml:space="preserve">
+    <value>Subtotal exc. VAT:</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="subject" xml:space="preserve">
+    <value>Subject</value>
+    <comment>rinku 17-01-08</comment>
+  </data>
+  <data name="subscribeFailureMassage" xml:space="preserve">
+    <value>This email address is already used, Try another..</value>
+    <comment>Updated Value Titu (29-06-07)</comment>
+  </data>
+  <data name="subscribeSuccessMassage" xml:space="preserve">
+    <value>Your email is subscribed successfully</value>
+  </data>
+  <data name="summery_report" xml:space="preserve">
+    <value>Summary</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="title_contact" xml:space="preserve">
+    <value>Title</value>
+    <comment>rinku 28-12-07</comment>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>Total</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="vat_19_report" xml:space="preserve">
+    <value>VAT 19%</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="vat_6_report" xml:space="preserve">
+    <value>VAT 6%</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="vat_amount_report" xml:space="preserve">
+    <value>VAT amount</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="vat_basis_report" xml:space="preserve">
+    <value>VAT basis</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="vat_free_report" xml:space="preserve">
+    <value>VAT free</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="vat_only_report" xml:space="preserve">
+    <value>VAT</value>
+    <comment>rinku 12-12-07</comment>
+  </data>
+  <data name="vat_report" xml:space="preserve">
+    <value>VAT
+(%)</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="your_vat_no_report" xml:space="preserve">
+    <value>Your VAT No:</value>
+    <comment>rinku 05-12-07</comment>
+  </data>
+  <data name="imgChristmas" xml:space="preserve">
+    <value>organ_music_for_christmas.jpg</value>
+    <comment>faisal 21-11-08</comment>
+  </data>
+  <data name="composer" xml:space="preserve">
+    <value>Authors / Composers</value>
+    <comment>Provas</comment>
+  </data>
+  <data name="collection" xml:space="preserve">
+    <value>Collections</value>
+    <comment>Provas</comment>
+  </data>
+  <data name="CollectionBooks" xml:space="preserve">
+    <value>Collection – Books</value>
+    <comment>titu (27-01-09)</comment>
+  </data>
+  <data name="CollectionCD" xml:space="preserve">
+    <value>Collection – CD</value>
+    <comment>titu (27-01-09)</comment>
+  </data>
+  <data name="CollectionSheetmusic" xml:space="preserve">
+    <value>Collection – Sheetmusic</value>
+    <comment>titu (27-01-09)</comment>
+  </data>
+  <data name="credit_invoice" xml:space="preserve">
+    <value>CREDIT INVOICE</value>
+    <comment>titu (27-01-09)</comment>
+  </data>
+  <data name="instrumentation" xml:space="preserve">
+    <value>Instrumentation</value>
+    <comment>titu 03-03-09</comment>
+  </data>
+  <data name="lblAvailable" xml:space="preserve">
+    <value>(during opening hours)</value>
+    <comment>Provas 17-12-2009</comment>
+  </data>
+  <data name="basket" xml:space="preserve">
+    <value>Basket</value>
+  </data>
+  <data name="basketempty" xml:space="preserve">
+    <value>Basket Empty</value>
+  </data>
+  <data name="emptybasket" xml:space="preserve">
+    <value>Empty Basket</value>
+  </data>
+  <data name="myAccount" xml:space="preserve">
+    <value>My account</value>
+    <comment>sajib</comment>
+  </data>
+  <data name="payment" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="morenews" xml:space="preserve">
+    <value>more news</value>
+  </data>
+  <data name="keywords" xml:space="preserve">
+    <value>keywords..</value>
+  </data>
+  <data name="sort" xml:space="preserve">
+    <value>Sort</value>
+  </data>
+  <data name="detail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="viewpdf" xml:space="preserve">
+    <value>View Pdf</value>
+  </data>
+  <data name="send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="tellafriend" xml:space="preserve">
+    <value>tell a friend</value>
+  </data>
+  <data name="lblMsg" xml:space="preserve">
+    <value>Message</value>
+    <comment>kallol</comment>
+  </data>
+  <data name="stepComplete" xml:space="preserve">
+    <value>Order Completed</value>
+    <comment>kallol</comment>
+  </data>
+  <data name="stepDelivaery" xml:space="preserve">
+    <value>Delivery Address</value>
+    <comment>kallol</comment>
+  </data>
+  <data name="steplogin" xml:space="preserve">
+    <value>Login/Register</value>
+  </data>
+  <data name="stepPayment" xml:space="preserve">
+    <value>Payment</value>
+    <comment>kallol</comment>
+  </data>
+  <data name="subscribe_mail" xml:space="preserve">
+    <value>If you want to subscribe for our newsletter, please register and have your e-mail address here.</value>
+  </data>
+  <data name="toptenBook" xml:space="preserve">
+    <value>Top ten Books</value>
+  </data>
+  <data name="toptenCDDVD" xml:space="preserve">
+    <value>Top ten CD /DVD</value>
+  </data>
+  <data name="toptenProducts" xml:space="preserve">
+    <value>Top ten products</value>
+  </data>
+  <data name="toptensheetmusic" xml:space="preserve">
+    <value>Top ten sheetmusic</value>
+  </data>
+  <data name="profile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="lblNewsMore" xml:space="preserve">
+    <value>News and More</value>
+  </data>
+  <data name="lblSheader" xml:space="preserve">
+    <value>&lt;b&gt;Boijenga music publication&lt;/b&gt;&lt;br/&gt;Boijenga music publication</value>
+  </data>
+  <data name="subscribe_mail_invalidemail" xml:space="preserve">
+    <value>Invalid Email address.Request Failure.</value>
+  </data>
+  <data name="registration_notice_1" xml:space="preserve">
+    <value>Your email address is your username</value>
+  </data>
+  <data name="registration_notice_2" xml:space="preserve">
+    <value>We are careful with your personal data to call, the data are not provided to 3rd!</value>
+  </data>
+  <data name="less" xml:space="preserve">
+    <value>Less</value>
+  </data>
+</root>

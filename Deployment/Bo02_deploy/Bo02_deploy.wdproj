@@ -1,0 +1,64 @@
+﻿<!-- 
+  Microsoft Visual Studio 2008 Web Deployment Project 
+  http://go.microsoft.com/fwlink/?LinkID=104956
+
+-->
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{906D6B5D-3C6B-4307-BD12-21495B93557E}</ProjectGuid>
+    <SourceWebPhysicalPath>..\..\webroot</SourceWebPhysicalPath>
+    <SourceWebProject>{C1058B3D-0300-4611-903D-1241633375B0}|E:\Projecten\Bo02\webroot</SourceWebProject>
+    <SourceWebVirtualPath>/webroot</SourceWebVirtualPath>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\Debug</OutputPath>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>Bo02</SingleAssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\Release</OutputPath>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>Bo02</SingleAssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Boeijenga.Business\Boeijenga.Business.csproj">
+      <Project>{2AFD31BB-119D-49B0-A7DD-4666AE270664}</Project>
+      <Name>Boeijenga.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Boeijenga.Common\Boeijenga.Common.csproj">
+      <Project>{05F725A9-081B-4894-9D3A-6DAC81BEEBA0}</Project>
+      <Name>Boeijenga.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Boeijenga.DataAccess\Boeijenga.DataAccess.csproj">
+      <Project>{F6CC9CCD-22C7-4614-BA3A-C1AD3A230E59}</Project>
+      <Name>Boeijenga.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\HawarIT.WebControls\HawarIT.WebControls.csproj">
+      <Project>{4241283B-D692-4417-ABC1-BF3BA37A56EC}</Project>
+      <Name>HawarIT.WebControls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WebDeployment\v9.0\Microsoft.WebDeployment.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.WebDeployment.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="BeforeMerge">
+  </Target>
+  <Target Name="AfterMerge">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

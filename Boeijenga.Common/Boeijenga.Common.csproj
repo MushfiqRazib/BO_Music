@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{05F725A9-081B-4894-9D3A-6DAC81BEEBA0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Boeijenga.Common</RootNamespace>
+    <AssemblyName>Boeijenga.Common</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Objects\Address.cs" />
+    <Compile Include="Objects\Article.cs" />
+    <Compile Include="Objects\Category.cs" />
+    <Compile Include="Objects\PaymentRequest.cs" />
+    <Compile Include="Objects\Transaction.cs" />
+    <Compile Include="Objects\Merchant.cs" />
+    <Compile Include="Objects\Composer.cs" />
+    <Compile Include="Objects\Country.cs" />
+    <Compile Include="Objects\Customer.cs" />
+    <Compile Include="Objects\DataRecord.cs" />
+    <Compile Include="Objects\DeliveryAddress.cs" />
+    <Compile Include="Objects\Grade.cs" />
+    <Compile Include="Objects\Invoice.cs" />
+    <Compile Include="Objects\MainProduct.cs" />
+    <Compile Include="Objects\Order.cs" />
+    <Compile Include="Objects\OrderDTO.cs" />
+    <Compile Include="Objects\Name.cs" />
+    <Compile Include="Objects\OrderLine.cs" />
+    <Compile Include="Objects\Period.cs" />
+    <Compile Include="Objects\Person.cs" />
+    <Compile Include="Objects\Publisher.cs" />
+    <Compile Include="Objects\ReceiveOrder.cs" />
+    <Compile Include="Objects\ReceiveOrderLine.cs" />
+    <Compile Include="Objects\SearchKeyword.cs" />
+    <Compile Include="Objects\SearchKeyWordMap.cs" />
+    <Compile Include="Objects\SubCategory.cs" />
+    <Compile Include="Objects\SupplyOrder.cs" />
+    <Compile Include="Objects\User.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\Function.cs" />
+    <Compile Include="Utils\LogWriter.cs" />
+    <Compile Include="Utils\ShippingCostCalculator.cs" />
+    <Compile Include="Utils\VatCalculator.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

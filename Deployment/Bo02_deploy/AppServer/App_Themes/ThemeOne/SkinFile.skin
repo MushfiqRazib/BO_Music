@@ -1,0 +1,20 @@
+<%@ Register Assembly="HawarIT.WebControls" Namespace="HawarIT.WebControls" TagPrefix="cc1" %>
+<asp:TextBox runat="server" Font-Names="Tahoma" Font-Size="11px"/>
+<asp:Button runat="server" Font-Names="Tahoma"  height="21" />
+<asp:CheckBox runat="server" />
+<asp:RadioButton runat="server"  />
+<asp:DropDownList runat="server"  Font-Size="11px" height="18px" />
+<asp:LinkButton runat="server" Font-Size="11px"/>
+<asp:GridView runat="server" GridLines="both" BorderColor="white" BorderWidth="0px" PagerSettings-Mode=Numeric  PagerStyle-HorizontalAlign=center PagerStyle-BackColor="#DEDEDE" >
+    <HeaderStyle BackColor="#DEDEDE" BorderColor="White" cssClass="DataGridFixedHeader" HorizontalAlign="Center" Font-Size=11px />
+    <AlternatingRowStyle BackColor="#EFEFEF" HorizontalAlign=Left VerticalAlign=Top />
+    <RowStyle BackColor="White" VerticalAlign=Top  HorizontalAlign=left />
+</asp:GridView> 
+<cc1:PagingGridView runat="server" GridLines="both" BorderColor="white" BorderWidth="0px" PagerSettings-Mode="NumericFirstLast"  PagerStyle-HorizontalAlign="center" PagerStyle-BackColor="#DEDEDE" >
+    <HeaderStyle BackColor="#DEDEDE" BorderColor="White" cssClass="DataGridFixedHeader" HorizontalAlign="Left" Font-Size="11px" />
+    <AlternatingRowStyle BackColor="#EFEFEF" HorizontalAlign="Left" VerticalAlign="Top" />
+    <RowStyle BackColor="White" VerticalAlign="Top"  HorizontalAlign="left" />
+</cc1:PagingGridView> 
+
+<cc1:DateControl runat="server" Format="dd_MM_yyyy" Width="140px" Font-Size="11px" Height="18px"></cc1:DateControl>
+<asp:Panel runat="server" BackColor="#F0F0F0" Style="display: none; border: 2px outset #98BF21"/>

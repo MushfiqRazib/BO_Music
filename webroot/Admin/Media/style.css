@@ -1,0 +1,403 @@
+body
+{
+	margin: 0px;
+}
+
+td 
+{
+	font-size: 11px;
+	font-family: Tahoma, arial, helvetica, sans-serif;
+	
+}
+
+ol, li
+{
+	font-size: 11px;
+}
+
+td.header
+{
+/*	background-image: url(header_bg.jpg);
+	background-repeat: no-repeat;
+	background-color: #66c2c2;
+*/
+}
+
+td.strip 
+{
+	background-color: #0099CC 
+}
+
+td.mainmenu
+{
+	padding-left: 12px;
+	font-weight: bold;
+	font-size: 16px;
+	background-image: url(menu_bg.jpg);
+	vertical-align: top;
+	padding-top: 20px;
+	background-repeat: no-repeat;
+	background-color: #c8e9e9;
+}
+
+td.content 
+{
+	vertical-align: top; 
+	font-size: 13px; 
+	padding-left: 20px; 
+	padding-top: 20px; 
+	padding-right: 20px; 
+	padding-bottom: 20px; 
+}
+
+a 
+{
+	color: #2663A4; 
+}
+
+a:hover 
+{
+	color: #0099CC; 
+}
+
+h1
+{
+	font-weight: bold; 
+	font-size: 20px 
+}
+
+h2
+{
+	font-weight: bold; 
+	font-size: 18px 
+}
+
+h3
+{
+	font-weight: bold; 
+	font-size: 16px 
+}
+
+h4
+{
+	font-weight: bold; 
+	font-size: 15px 
+}
+
+h5
+{
+	font-weight: bold; 
+	font-size: 14px 
+}
+input
+{
+/*	border-color:  Navy;
+	border-style: solid;
+	border-width: 1px;
+*/
+}
+
+
+
+.adminbody
+{
+	font-size: 11px;
+	font-family: Tahoma, arial, helvetica, sans-serif;
+	background-color:#eeffdd;
+	margin: 10px 0px 0px 10px;
+}
+.button
+{
+	cursor: crosshair;
+	font-family: Tahoma, Arial, Helvetica, sans-serif, Verdana;
+	font-size: 11px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.button1
+{
+	border-width: 1px;
+	width: 100px;
+}
+
+.content
+{
+	width: 100%;
+	height: 450px;
+	background-color: #F0F0F0;
+}
+.content2
+{
+	width: 99%;
+	height: 420px;
+	background-color: #FFFFFF;
+}
+.contentHeader
+{
+	color: Red;
+	padding-left: 5px;
+	font-weight:bold;
+}
+.contentArea
+{
+	background-color: #F0F0F0;
+	width: 882px !important;
+}
+.pageHeader
+{
+	width: 882px;
+	padding-left: 8px;
+	padding-top: 8px;
+	background-color: #DEDEDE;
+}
+.loginFooter
+{
+	height: 60px;
+	width: 60%;
+	background-color: #F0F0F0;
+}
+
+.FormLeftColumn
+{
+	width: 49%;
+	float: left;
+}
+.FormRightColumn
+{
+	width: 49%;
+	float: right;
+}
+.TableRow
+{
+	clear: both;
+}
+.TableFormLeble
+{	
+	color: #444444;
+	text-align: left;
+	font-weight: bold;
+	white-space: nowrap;
+	vertical-align: middle;
+	width: 20%;
+	height: 20px;
+	padding: 5px 5px 2px 3px;
+	float: left;
+	font:11px tahoma,arial,helvetica;
+}
+.TableFormContent
+{
+	text-align: left;
+	vertical-align: top;
+	padding: 5px;
+}
+.CommonTextBox
+{
+	font-size: 11px;
+	border: 1px solid gray;
+	color: #333333;
+	padding: 2px 2px 2px 2px;
+	background-color: #FFFFFF;
+	width: 150px;
+}
+
+.CommonDropDownList
+{
+	font-size: 11px;
+	border: 1px solid #546180;
+	color: #333333;
+	padding-left: 2px; /*padding-top: 2px;*/
+	background-color: #FFFFFF;
+}
+.TabContentHolder
+{
+	padding: 20px 20px 20px 20px;
+	text-align: left;
+}
+
+.updateProgress
+{
+	border-width: 1px;
+	border-style: solid;
+	background-color: #CCCCCC;
+	position: absolute;
+	width: 130px;
+	height: 50px;
+}
+.updateProgressMessage
+{
+	margin: 3px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif, Verdana;
+	font-size: small;
+	vertical-align: middle;
+}
+
+.ajax__tab_header
+{
+	text-align: left;
+}
+
+.ajax__tab_body
+{
+	height: 400px;
+}
+
+
+
+
+
+
+
+/* $Id: example.css,v 1.5 2006/03/27 02:44:36 pat Exp $ */
+
+/*--------------------------------------------------
+  REQUIRED to hide the non-active tab content.
+  But do not hide them in the print stylesheet!
+  --------------------------------------------------*/
+.tabberlive .tabbertabhide
+{
+	display: none;
+}
+
+/*--------------------------------------------------
+  .tabber = before the tabber interface is set up
+  .tabberlive = after the tabber interface is set up
+  --------------------------------------------------*/
+.tabber
+{
+}
+.tabberlive
+{
+	margin-top: 1em;
+}
+
+/*--------------------------------------------------
+  ul.tabbernav = the tab navigation list
+  li.tabberactive = the active tab
+  --------------------------------------------------*/
+ul.tabbernav
+{
+	margin: 0;
+	padding: 3px 0 3px 0;
+	border-bottom: 1px solid #778;
+	font: bold 11px tahoma,arial,helvetica;
+	text-align: left;
+}
+
+ul.tabbernav li
+{
+	list-style: none;
+	margin: 0;
+	display: inline;
+}
+
+ul.tabbernav li a
+{
+	padding: 3px 0.5em;
+	margin-left: 3px;
+	border: 1px solid #778;
+	border-bottom: none;
+	background: #DDE;
+	text-decoration: none;
+}
+
+ul.tabbernav li a:link
+{
+	color: #448;
+}
+ul.tabbernav li a:visited
+{
+	color: #667;
+}
+
+ul.tabbernav li a:hover
+{
+	color: #000;
+	background: #AAE;
+	border-color: #227;
+}
+
+ul.tabbernav li.tabberactive a
+{
+	background-color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+ul.tabbernav li.tabberactive a:hover
+{
+	color: #000;
+	background: white;
+	border-bottom: 1px solid white;
+}
+
+/*--------------------------------------------------
+  .tabbertab = the tab content
+  Add style only after the tabber interface is set up (.tabberlive)
+  --------------------------------------------------*/
+.tabberlive .tabbertab
+{
+	padding: 10px;
+	border-top: 0; /* If you don't want the tab size changing whenever a tab is changed     you can set a fixed height */ /* height:200px; */ /* If you set a fix height set overflow to auto and you will get a     scrollbar when necessary */ /* overflow:auto; */
+	width: 97.5% !important;
+	border-left:solid 1px #777788;
+	border-right:solid 1px #777788;
+	border-bottom:solid 1px #777788;
+}
+
+/* If desired, hide the heading since a heading is provided by the tab */
+.tabberlive .tabbertab h2
+{
+	display: none;
+}
+.tabberlive .tabbertab h3
+{
+	display: none;
+}
+
+/* Example of using an ID to set different styles for the tabs on the page */
+.tabberlive#tab1
+{
+}
+.tabberlive#tab2
+{
+}
+.tabberlive#tab2 .tabbertab
+{
+	height: 200px;
+	overflow: auto;
+}
+
+.contentBackground{
+	background-color: #F0F0F0;
+}
+
+.modalBackground
+{
+	background-color: Olive;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+.modalPopup
+{
+	background-color: #ffffdd;
+	border-width: 3px;
+	border-style: solid;
+	border-color: Gray;
+	padding: 3px;
+	width: 250px;
+}
+
+div.menu
+{
+	font-size:15px;
+	text-align:center;
+	width:400px;
+	margin:auto;
+	background-color:#2bab1c;
+	vertical-align:text-top;
+}
+div.menu .menuImage
+{
+	border:0px;
+}

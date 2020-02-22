@@ -1,0 +1,61 @@
+﻿
+.headerleft
+{
+	background-image:url('../../graphics/header_left.gif');
+	background-repeat:no-repeat;
+	width:17px;
+}
+.headertop
+{
+	background-image:url('../../graphics/header_top.gif');
+	background-repeat:repeat-x;
+	height:27px; 
+	padding-right:0px;
+}
+.header
+{
+	background-image:url('../../graphics/header.gif');
+}
+.headertopmnu
+{
+	height:25;
+	background-image:url('../../graphics/HeaderTopMenuBg.gif'); 
+	background-repeat:repeat-x;
+}
+.headerright
+{
+	background-image:url('../../graphics/header_right.gif');
+	background-repeat:no-repeat;
+	width:17px; 
+	padding-bottom:0px;
+}
+.left
+{
+	background-image:url('../../graphics/left.gif');
+	background-repeat:repeat-y;
+	width:17px;
+}
+.right
+{
+	background-image:url('../../graphics/Right.gif');
+	background-repeat:repeat-y;
+	width:17px;
+}
+.bottomleft
+{
+	background-image:url('../../graphics/bottom_left.gif');
+	background-repeat:no-repeat;
+	width:17px;
+}
+.bottom
+{
+	background-image:url('../../graphics/bottom.gif');
+	background-repeat:repeat-x;
+	height:20px;
+}
+.bottomright
+{
+	background-image:url('../../graphics/bottom_Right.gif');
+	background-repeat:no-repeat;
+	width:17px;
+}

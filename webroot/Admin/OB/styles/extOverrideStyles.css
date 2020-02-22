@@ -1,0 +1,16 @@
+﻿/* The following class added for cell inner text alignment with column header */
+.x-grid3-cell-inner
+{
+	padding-left:7px;
+}
+
+.x-grid3-row td, .x-grid3-summary-row td {
+	padding:0;
+
+}
+/* ---  --  -- */
+
+#actioncontrol .x-column
+{
+	margin-top:2px;
+}
